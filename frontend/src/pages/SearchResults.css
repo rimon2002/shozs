@@ -1,0 +1,72 @@
+.results-page {
+  padding: 20px;
+}
+
+.result-card {
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  transition: box-shadow 0.3s ease;
+}
+
+.result-card:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+}
+
+.result-card .bus-details h5 {
+  font-size: 1.2rem;
+  color: #198754;
+}
+
+.result-card .bus-details p,
+.result-card .time-info p,
+.result-card .price-info p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.result-card .time-info,
+.result-card .duration,
+.result-card .price-info {
+  min-width: 100px;
+  margin-top: 10px;
+}
+
+.result-card .btn-success {
+  font-weight: bold;
+  padding: 6px 14px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.badge {
+  font-size: 13px;
+  padding: 6px 10px;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .result-card {
+    padding: 16px;
+  }
+
+  .result-card .bus-details h5 {
+    font-size: 1rem;
+  }
+
+  .result-card .btn-success {
+    width: 100%;
+  }
+
+  .result-card .d-flex {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+
+  .result-card .time-info,
+  .result-card .duration,
+  .result-card .price-info {
+    text-align: left;
+    margin-top: 10px;
+  }
+}

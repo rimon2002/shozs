@@ -1,0 +1,54 @@
+.container h4 {
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+.card-body h5 {
+  margin-bottom: 12px;
+  color: #198754;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.card-body p {
+  margin: 4px 0;
+  font-size: 1rem;
+  color: #343a40;
+}
+
+.card-body .btn-success {
+  font-weight: bold;
+  padding: 8px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+@media (max-width: 576px) {
+  .container h4 {
+    font-size: 1.3rem;
+  }
+
+  .card-body h5 {
+    font-size: 1.1rem;
+  }
+
+  .card-body .btn-success {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,28 @@
+/* Home.css */
+.hero-section {
+  background: url("C:\Users\USER\Desktop\shozs\frontend\public\bus.png")
+    no-repeat center center;
+  background-size: cover;
+  min-height: 400px;
+  padding: 60px 20px;
+}
+
+.search-box {
+  max-width: 950px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding-top: 30px;
+  }
+
+  .search-box {
+    padding: 20px;
+  }
+
+  .navbar .btn {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+}

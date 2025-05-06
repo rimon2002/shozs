@@ -1,0 +1,30 @@
+/* SeatSelection.css */
+.seat-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.seat-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.seat {
+  width: 45px;
+  height: 40px;
+  font-size: 14px;
+  margin: 4px;
+  border-radius: 6px;
+}
+
+@media (max-width: 576px) {
+  .seat {
+    width: 38px;
+    height: 35px;
+    font-size: 12px;
+  }
+}
